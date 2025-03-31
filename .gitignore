@@ -1,0 +1,34 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files
+.env
+*.env
+
+# Streamlit's internal config/cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# VSCode settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Chat files (sensitive user data)
+chat.txt
+*.txt
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# virtual environment
+venv/
+env/
+.venv/
